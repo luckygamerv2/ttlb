@@ -112,6 +112,17 @@ ms.delete()
   b.edit(`** :white_check_mark: سيتم الرد في اقرب وقت :white_check_mark: **`)
         },5000);
 var gg = message.guild.channels.find('name', 'التقديمات')
+
+message.channel.send("** ادفع 10الف كريديت ل luckygamer#0111و كمان@Vééééx#2227  **").then(e => { 
+    let filter = m => m.author.id === message.author.id
+    let lan = '';
+    let md = '';
+    let br = '';
+    let chaLan = message.channel.awaitMessages(filter, { max: 1, time: 40000, errors: ['time'] })
+    .then(collected => {
+      lan = collected.first().content
+      collected.first().delete()
+e.delete();
 if(!gg) return;
 if(gg) {
 gg.send({embed : new Discord.RichEmbed()
