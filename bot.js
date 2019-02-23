@@ -147,4 +147,4 @@ gg.send({embed : new Discord.RichEmbed()
 
 
 
-client.login('NTQ4NzU5NzE3MjEyNzE3MDY2.D1KKMg.rdC10RkeXXN_Zxxb2C2XJm1sjPU')
+client.login('NTI4OTc4MzU4Mzc4MTY4MzQx.D1Ks_g.tGHn2jA022-CAohi8fLoPzsdigg')
